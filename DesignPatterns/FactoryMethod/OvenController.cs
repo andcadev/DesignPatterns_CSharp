@@ -14,4 +14,6 @@
         // This is the actual Factory Method definition
         protected abstract IDeviceConnection CreateConnection();
     }
+
+
 }
