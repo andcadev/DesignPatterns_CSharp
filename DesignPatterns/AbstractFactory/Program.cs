@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("===========================================");
+            Console.WriteLine("====== BEGIN DEMO - ABSTRACT FACTORY ======");
+            Console.WriteLine("===========================================");
+
             //  Legacy oven
             #region
-
-            Console.WriteLine("\n***********************************");
             Console.WriteLine("Legacy oven management:");
 
             // New oven controller using the Legacy oven factory
@@ -24,7 +26,7 @@
 
             //  Modern oven
             #region 
-            Console.WriteLine("\n***********************************");
+            Console.WriteLine("------------------------------------");
             Console.WriteLine("Modern oven management:");
 
             // New oven controller using the Modern oven factory
@@ -38,6 +40,12 @@
             Console.WriteLine($"Current temperature for oven2: {temp2} °C");
             oven2.CloseConnection();
             #endregion
+
+            Console.WriteLine("===========================================");
+            Console.WriteLine("======= END DEMO - ABSTRACT FACTORY =======");
+            Console.WriteLine("===========================================");
+
+
 
         }
     }
