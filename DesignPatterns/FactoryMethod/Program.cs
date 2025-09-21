@@ -11,7 +11,7 @@
             OvenController controller;
 
             // Set temperature of the legacy oven which uses a serial connection:
-            Console.WriteLine("Setting temperature of the legay oven:");
+            Console.WriteLine("Setting temperature of the legacy oven:");
             controller = new LegacyOvenController();
             controller.SetOvenTemperature(85);
 

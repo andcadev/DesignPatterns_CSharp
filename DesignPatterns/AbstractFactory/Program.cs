@@ -8,14 +8,14 @@
             Console.WriteLine("====== BEGIN DEMO - ABSTRACT FACTORY ======");
             Console.WriteLine("===========================================");
 
-            //  Legacy oven
+            // Legacy oven
             #region
             Console.WriteLine("Legacy oven management:");
 
             // New oven controller using the Legacy oven factory
             OvenController oven1 = new OvenController(new LegacyOvenFactory());
 
-            // Command usage
+            // Open connection, set temperature, read current temperature, then close connection
             oven1.OpenConnection();
             oven1.SetTemperature(180);
             oven1.StartCycle();
@@ -24,7 +24,7 @@
             oven1.CloseConnection();
             #endregion
 
-            //  Modern oven
+            // Modern oven
             #region 
             Console.WriteLine("------------------------------------");
             Console.WriteLine("Modern oven management:");
@@ -32,7 +32,7 @@
             // New oven controller using the Modern oven factory
             OvenController oven2 = new OvenController(new ModernOvenFactory());
 
-            // Command usage
+            // Open connection, set temperature, read current temperature, then close connection
             oven2.OpenConnection();
             oven2.SetTemperature(290);
             oven2.StartCycle();

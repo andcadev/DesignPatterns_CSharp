@@ -15,8 +15,8 @@ namespace _ProjectSelector
                 Console.WriteLine("Available design patterns:\n" +
                                   "1. Factory Method\n" +
                                   "2. Abstract Factory\n");
-                Console.WriteLine("Insert the desig pattern number to view the related demo " +
-                    "or press 'Q' to terminate:\n");
+                Console.WriteLine("Insert the desired pattern number to view the related demo or press 'Q' to terminate.\n" +
+                    "WARNING: Compile all the projects before running this code.");
 
                 input = Console.ReadLine()?.ToLower().Trim();
 
