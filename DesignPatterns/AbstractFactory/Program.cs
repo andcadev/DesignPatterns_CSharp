@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod
+﻿namespace AbstractFactory
 {
     internal class Program
     {

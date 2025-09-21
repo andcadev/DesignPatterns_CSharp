@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace FactoryMethod
+namespace AbstractFactory
 {
     public class XmlResponseParser : IResponseParser
     {
