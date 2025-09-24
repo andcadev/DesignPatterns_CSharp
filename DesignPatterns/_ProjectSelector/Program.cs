@@ -16,7 +16,7 @@ namespace _ProjectSelector
                                   "1. Factory Method\n" +
                                   "2. Abstract Factory\n");
                 Console.WriteLine("Insert the desired pattern number to view the related demo or press 'Q' to terminate.\n" +
-                    "WARNING: Compile all the projects before running this code.");
+                    "WARNING: Compile all the projects before running this code (Ctrl + Shift + B)");
 
                 input = Console.ReadLine()?.ToLower().Trim();
 
