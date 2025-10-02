@@ -7,7 +7,7 @@
         public void Send(string message) => Console.WriteLine($"[TCP] Message sent: {message}");
         public string Read()
         {
-            // Simulate read from the Serial port
+            // Simulate read from the tcp port
             Console.WriteLine("[TCP] Receiving data...");
 
             // Simulated response
