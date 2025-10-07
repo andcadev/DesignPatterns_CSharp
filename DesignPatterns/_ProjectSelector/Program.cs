@@ -14,7 +14,8 @@ namespace _ProjectSelector
             {
                 Console.WriteLine("Available design patterns:\n" +
                                   "1. Factory Method\n" +
-                                  "2. Abstract Factory\n");
+                                  "2. Abstract Factory\n" +
+                                  "3. Simple Factory\n"); 
                 Console.WriteLine("Insert the desired pattern number to view the related demo or press 'Q' to terminate.\n" +
                     "WARNING: Compile all the projects before running this code (Ctrl + Shift + B)");
 
@@ -34,6 +35,11 @@ namespace _ProjectSelector
                     case "2":
                         Console.WriteLine("Launching 'Abstract Factory' demo...");
                         LaunchProject("AbstractFactory");
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Launching 'Simple Factory' demo...");
+                        LaunchProject("SimpleFactory");
                         break;
 
                     default:
