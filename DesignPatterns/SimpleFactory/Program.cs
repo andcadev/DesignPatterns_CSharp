@@ -22,6 +22,7 @@
 
             try
             {
+                // Simple factory: instantiate the right object according to the user selection
                 IDocumentExporter exporter = DocumentExporterFactory.CreateExporter(format);
                 exporter.Export(table, "myFile") ;
             }
