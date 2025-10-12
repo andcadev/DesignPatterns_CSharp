@@ -6,7 +6,7 @@
         {
             Console.WriteLine($"[CSV] Content exported\n" +
                 $"File: {filename}.csv\n" +
-                $"Content: {content}");
+                $"Content:\n{content}");
         }
     }
 }

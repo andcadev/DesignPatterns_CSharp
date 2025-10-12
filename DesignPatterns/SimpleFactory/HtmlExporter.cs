@@ -6,7 +6,7 @@
         {
             Console.WriteLine($"[HTML] Content exported\n" +
                 $"File: {filename}.html\n" +
-                $"Content: {content}");
+                $"Content: \n{content}");
         }
     }
 }

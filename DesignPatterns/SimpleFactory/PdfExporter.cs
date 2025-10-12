@@ -6,7 +6,7 @@
         {
             Console.WriteLine($"[PDF] Content exported\n" +
                 $"File: {filename}.pdf\n" +
-                $"Content: {content}");
+                $"Content: \n{content}");
         }
     }
 }
